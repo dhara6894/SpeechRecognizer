@@ -1,0 +1,9 @@
+
+/* Class = "UITextView"; text = "Say Something!!!!"; ObjectID = "1I5-LE-MNW"; */
+"1I5-LE-MNW.text" = "Say Something!!!!";
+
+/* Class = "UIButton"; normalTitle = "Start Recording"; ObjectID = "6qc-6i-fBY"; */
+"6qc-6i-fBY.normalTitle" = "Start Recording";
+
+/* Class = "UIButton"; normalTitle = "Text To Speech"; ObjectID = "nQ6-ay-fc5"; */
+"nQ6-ay-fc5.normalTitle" = "Text To Speech";

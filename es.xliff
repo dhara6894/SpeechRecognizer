@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="SpeechRecognizerDemo/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.1" build-num="8B62"/>
+    </header>
+    <body/>
+  </file>
+  <file original="SpeechRecognizerDemo/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.1" build-num="8B62"/>
+    </header>
+    <body>
+      <trans-unit id="1I5-LE-MNW.text">
+        <source>Say Something!!!!</source>
+        <target>Say Something!!!!</target>
+        <note>Class = "UITextView"; text = "Say Something!!!!"; ObjectID = "1I5-LE-MNW";</note>
+      </trans-unit>
+      <trans-unit id="6qc-6i-fBY.normalTitle">
+        <source>Start Recording</source>
+        <target>Start Recording</target>
+        <note>Class = "UIButton"; normalTitle = "Start Recording"; ObjectID = "6qc-6i-fBY";</note>
+      </trans-unit>
+      <trans-unit id="nQ6-ay-fc5.normalTitle">
+        <source>Text To Speech</source>
+        <target>Text To Speech</target>
+        <note>Class = "UIButton"; normalTitle = "Text To Speech"; ObjectID = "nQ6-ay-fc5";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SpeechRecognizerDemo/Info.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.1" build-num="8B62"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296806AA1E63FB6900301AAF /* ST MixDemo Reportage Dokus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 296806A91E63FB6900301AAF /* ST MixDemo Reportage Dokus.mp3 */; };
+		296806AC1E64071D00301AAF /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296806AB1E64071D00301AAF /* Formatter.swift */; };
+		29EB917A1E601669005D61D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB91791E601669005D61D7 /* AppDelegate.swift */; };
+		29EB917C1E601669005D61D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB917B1E601669005D61D7 /* ViewController.swift */; };
+		29EB917F1E601669005D61D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EB917D1E601669005D61D7 /* Main.storyboard */; };
+		29EB91811E601669005D61D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EB91801E601669005D61D7 /* Assets.xcassets */; };
+		29EB91841E601669005D61D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EB91821E601669005D61D7 /* LaunchScreen.storyboard */; };
+		7C56A7AB748968C1CA3397A5 /* Pods_SpeechRecognizerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC8089400A5F545B913CF04 /* Pods_SpeechRecognizerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002DC795718097A4AD92EC4E /* Pods-SpeechRecognizerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognizerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechRecognizerDemo/Pods-SpeechRecognizerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1AC8089400A5F545B913CF04 /* Pods_SpeechRecognizerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechRecognizerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		290153761E66B2D500B25161 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		290153771E66B2D500B25161 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		290153781E66BD3F00B25161 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		290153791E66BD3F00B25161 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		296806A91E63FB6900301AAF /* ST MixDemo Reportage Dokus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ST MixDemo Reportage Dokus.mp3"; sourceTree = "<group>"; };
+		296806AB1E64071D00301AAF /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		29EB91761E601669005D61D7 /* SpeechRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EB91791E601669005D61D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29EB917B1E601669005D61D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29EB917E1E601669005D61D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29EB91801E601669005D61D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29EB91831E601669005D61D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29EB91851E601669005D61D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782682F40AA30B0B71D5E8DA /* Pods-SpeechRecognizerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognizerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechRecognizerDemo/Pods-SpeechRecognizerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29EB91731E601669005D61D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C56A7AB748968C1CA3397A5 /* Pods_SpeechRecognizerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29EB916D1E601669005D61D7 = {
+			isa = PBXGroup;
+			children = (
+				29EB91781E601669005D61D7 /* SpeechRecognizerDemo */,
+				29EB91771E601669005D61D7 /* Products */,
+				6593EC841A035A83A1ECDE3B /* Pods */,
+				505E089D6EEF92AF7A9FEEAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29EB91771E601669005D61D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29EB91761E601669005D61D7 /* SpeechRecognizerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29EB91781E601669005D61D7 /* SpeechRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29EB91791E601669005D61D7 /* AppDelegate.swift */,
+				29EB917B1E601669005D61D7 /* ViewController.swift */,
+				296806AB1E64071D00301AAF /* Formatter.swift */,
+				296806A91E63FB6900301AAF /* ST MixDemo Reportage Dokus.mp3 */,
+				29EB917D1E601669005D61D7 /* Main.storyboard */,
+				29EB91801E601669005D61D7 /* Assets.xcassets */,
+				29EB91821E601669005D61D7 /* LaunchScreen.storyboard */,
+				29EB91851E601669005D61D7 /* Info.plist */,
+			);
+			path = SpeechRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		505E089D6EEF92AF7A9FEEAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8089400A5F545B913CF04 /* Pods_SpeechRecognizerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6593EC841A035A83A1ECDE3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				782682F40AA30B0B71D5E8DA /* Pods-SpeechRecognizerDemo.debug.xcconfig */,
+				002DC795718097A4AD92EC4E /* Pods-SpeechRecognizerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29EB91751E601669005D61D7 /* SpeechRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EB91881E601669005D61D7 /* Build configuration list for PBXNativeTarget "SpeechRecognizerDemo" */;
+			buildPhases = (
+				04A4FFAF165ED7FAA8CC1C5A /* [CP] Check Pods Manifest.lock */,
+				29EB91721E601669005D61D7 /* Sources */,
+				29EB91731E601669005D61D7 /* Frameworks */,
+				29EB91741E601669005D61D7 /* Resources */,
+				9137C2337A2046DAB3EDB4CC /* [CP] Embed Pods Frameworks */,
+				7028A7C48D20C1D21AFC28BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechRecognizerDemo;
+			productName = SpeechRecognizerDemo;
+			productReference = 29EB91761E601669005D61D7 /* SpeechRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29EB916E1E601669005D61D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = SA;
+				TargetAttributes = {
+					29EB91751E601669005D61D7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L2V3PEQX9P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29EB91711E601669005D61D7 /* Build configuration list for PBXProject "SpeechRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29EB916D1E601669005D61D7;
+			productRefGroup = 29EB91771E601669005D61D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29EB91751E601669005D61D7 /* SpeechRecognizerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29EB91741E601669005D61D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EB91841E601669005D61D7 /* LaunchScreen.storyboard in Resources */,
+				296806AA1E63FB6900301AAF /* ST MixDemo Reportage Dokus.mp3 in Resources */,
+				29EB91811E601669005D61D7 /* Assets.xcassets in Resources */,
+				29EB917F1E601669005D61D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A4FFAF165ED7FAA8CC1C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7028A7C48D20C1D21AFC28BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechRecognizerDemo/Pods-SpeechRecognizerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9137C2337A2046DAB3EDB4CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechRecognizerDemo/Pods-SpeechRecognizerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29EB91721E601669005D61D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296806AC1E64071D00301AAF /* Formatter.swift in Sources */,
+				29EB917C1E601669005D61D7 /* ViewController.swift in Sources */,
+				29EB917A1E601669005D61D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29EB917D1E601669005D61D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EB917E1E601669005D61D7 /* Base */,
+				290153761E66B2D500B25161 /* es */,
+				290153781E66BD3F00B25161 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29EB91821E601669005D61D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EB91831E601669005D61D7 /* Base */,
+				290153771E66B2D500B25161 /* es */,
+				290153791E66BD3F00B25161 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29EB91861E601669005D61D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29EB91871E601669005D61D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29EB91891E601669005D61D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782682F40AA30B0B71D5E8DA /* Pods-SpeechRecognizerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kalpesh Patel (P9WKG25F8U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L2V3PEQX9P;
+				INFOPLIST_FILE = SpeechRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sa.SpeechRecognizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		29EB918A1E601669005D61D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002DC795718097A4AD92EC4E /* Pods-SpeechRecognizerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kalpesh Patel (P9WKG25F8U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L2V3PEQX9P;
+				INFOPLIST_FILE = SpeechRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sa.SpeechRecognizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29EB91711E601669005D61D7 /* Build configuration list for PBXProject "SpeechRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EB91861E601669005D61D7 /* Debug */,
+				29EB91871E601669005D61D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EB91881E601669005D61D7 /* Build configuration list for PBXNativeTarget "SpeechRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EB91891E601669005D61D7 /* Debug */,
+				29EB918A1E601669005D61D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29EB916E1E601669005D61D7 /* Project object */;
+}
